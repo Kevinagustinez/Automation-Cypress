@@ -1,5 +1,3 @@
-const { Context } = require("mocha");
-
 describe("US: Verificar elementos agregados en el input.", () => {
     beforeEach("Precondición : Ingresar a la pagina TODOMVC", () => {
     cy.visit("https://todomvc-app-for-testing.surge.sh/");

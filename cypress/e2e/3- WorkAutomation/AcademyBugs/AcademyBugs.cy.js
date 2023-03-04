@@ -1,4 +1,4 @@
-describe('US-1 : Academy | PLP | Sorting | Clasificar y Ordenar el PLP según 7 categorías',function(){
+describe('US-1 : Clasificar y Ordenar el PLP según 7 categorías',function(){
     beforeEach('Usuario debera estar ubicado en el sector "FIND BUGS"',function(){
         cy.visit('https://academybugs.com/find-bugs/')
         cy.url().should('include', '/find-bugs')
