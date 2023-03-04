@@ -1,0 +1,17 @@
+{
+    "username":{
+        "input":"[data-test='username']",
+        "data":{
+            "valid": "standard_user",
+            "invalid":""
+        }
+    },
+    "password":{
+        "input":"[data-test='password']",
+        "data":{
+            "valid":"secret_sauce"
+        }
+    },
+    "LoginButton":"[data-test='login-button']"
+
+}
