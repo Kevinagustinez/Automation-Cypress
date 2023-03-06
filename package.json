@@ -1,5 +1,5 @@
 {
-  "name": "automation",
+  "name": "automation-cypress",
   "version": "1.0.0",
   "description": "Proyecto de pruebas practicas cypress",
   "main": "index.js",
