@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:runChrome": "cypress run --spec cypress/e2e/3-WorkAutomation/AcademyBugs/AcademyBugs.cy.js --browser chrome --headed"
   },
   "author": "Kevin Agustinez",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.7",
     "cypress": "^12.6.0",
+    "cypress-mochawesome-reporter": "^3.3.0",
     "mocha": "^10.2.0"
   },
   "dependencies": {
